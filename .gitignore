@@ -1,0 +1,7 @@
+.idea
+.vscode
+bin
+tmp
+.env
+keys.json
+database/gadm*

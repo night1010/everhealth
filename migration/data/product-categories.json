@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "name": "Batuk, Pilek \u0026 Flu",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/flu.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 2,
+    "name": "Demam \u0026 Nyeri",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/fever.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 3,
+    "name": "Masalah Pencernaan",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/digestion.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 4,
+    "name": "Alergi",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/allergy.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 5,
+    "name": "Masalah THT",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/ent.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 6,
+    "name": "Masalah Mata",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/eye.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 7,
+    "name": "Kondisi Kulit",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/skin.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 8,
+    "name": "Infeksi",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/infection.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 9,
+    "name": "Perawatan Kulit",
+    "is_drug": false,
+    "image": "https://everhealth-asset.irfancen.com/product-category/skin-care.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 10,
+    "name": "Perawatan Jerawat",
+    "is_drug": false,
+    "image": "https://everhealth-asset.irfancen.com/product-category/pimple.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 11,
+    "name": "Kosmetik \u0026 Kecantikan",
+    "is_drug": false,
+    "image": "https://everhealth-asset.irfancen.com/product-category/cosmetics.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 12,
+    "name": "Kesehatan \u0026 Imun",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/immunity.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 13,
+    "name": "Tulang \u0026 Sendi",
+    "is_drug": true,
+    "image": "https://everhealth-asset.irfancen.com/product-category/bones.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 14,
+    "name": "Alat Tes Mandiri",
+    "is_drug": false,
+    "image": "https://everhealth-asset.irfancen.com/product-category/self-test.png",
+    "image_key": "nxTJGD"
+  },
+  {
+    "id": 15,
+    "name": "P3K",
+    "is_drug": false,
+    "image": "https://everhealth-asset.irfancen.com/product-category/first-aid-kit.png",
+    "image_key": "nxTJGD"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "name": "Apotek Jaksel",
+    "admin_id": 7,
+    "address": "Jalan Pedurenan Masjid 2",
+    "city_id": 43,
+    "province_id": 6,
+    "latitude": -6.2208848,
+    "longitude": 106.831258
+  },
+  {
+    "name": "Apotek Jakut",
+    "admin_id": 8,
+    "address": "Jalan R.E Martadinata",
+    "city_id": 45,
+    "province_id": 6,
+    "latitude": -6.1257627,
+    "longitude": 106.8539243
+  },
+  {
+    "name": "Apotek Jakbar",
+    "admin_id": 9,
+    "address": "Jalan Raya Daan Mogot",
+    "city_id": 41,
+    "province_id": 6,
+    "latitude": -6.1681357,
+    "longitude": 106.7846151
+  },
+  {
+    "name": "Apotek Depok",
+    "admin_id": 10,
+    "address": "Jalan Raya Citayam",
+    "city_id": 115,
+    "province_id": 9,
+    "latitude": -6.4127521,
+    "longitude": 106.8164265
+  },
+  {
+    "name": "Apotek Bogor",
+    "admin_id": 11,
+    "address": "Jalan Danau Bogor Raya",
+    "city_id": 83,
+    "province_id": 9,
+    "latitude": -6.6051869,
+    "longitude": 106.8299027
+  },
+  {
+    "name": "Apotek Bekasi",
+    "admin_id": 12,
+    "address": "Jalan Ahmad Yani Bekasi",
+    "city_id": 82,
+    "province_id": 9,
+    "latitude": -6.2345107,
+    "longitude": 106.9935301
+  },
+  {
+    "name": "Apotek Bintaro",
+    "admin_id": 13,
+    "address": "Jalan Kasuari Bintaro",
+    "city_id": 24,
+    "province_id": 3,
+    "latitude": -6.278215,
+    "longitude": 106.7086882
+  },
+  {
+    "name": "Apotek Bandung",
+    "admin_id": 14,
+    "address": "Jalan Pajajaran Bandung",
+    "city_id": 80,
+    "province_id": 9,
+    "latitude": -6.9068588,
+    "longitude": 107.5891215
+  },
+  {
+    "name": "Apotek Tasikmalaya",
+    "admin_id": 15,
+    "address": "Jalan HZ Mustofa Tasikmalaya",
+    "city_id": 79,
+    "province_id": 9,
+    "latitude": -7.3317657,
+    "longitude": 108.2194007
+  },
+  {
+    "name": "Apotek Semarang",
+    "admin_id": 16,
+    "address": "Jalan Pemuda Semarang",
+    "city_id": 121,
+    "province_id": 10,
+    "latitude": -6.9788509,
+    "longitude": 110.4150814
+  },
+  {
+    "name": "Apotek Surakarta",
+    "admin_id": 17,
+    "address": "Jalan Tj Anom Surakarta",
+    "city_id": 122,
+    "province_id": 10,
+    "latitude": -7.55611,
+    "longitude": 110.83167
+  },
+  {
+    "name": "Apotek Surabay",
+    "admin_id": 18,
+    "address": "Jalan Kertajaya Surabaya",
+    "city_id": 161,
+    "province_id": 11,
+    "latitude": -7.2793977,
+    "longitude": 112.7619072
+  },
+  {
+    "name": "Apotek Banyuwangi",
+    "admin_id": 19,
+    "address": "Jalan Brawijaya Banyuwangi",
+    "city_id": 125,
+    "province_id": 11,
+    "latitude": -8.2334543,
+    "longitude": 114.3522082
+  },
+  {
+    "name": "Apotek Denpasar",
+    "admin_id": 20,
+    "address": "Jalan Imam Bonjol Denpasar",
+    "city_id": 9,
+    "province_id": 1,
+    "latitude": -8.6783011,
+    "longitude": 115.1993684
+  },
+  {
+    "name": "Apotek Buleleng",
+    "admin_id": 21,
+    "address": "Jalan Laksamana Buleleng",
+    "city_id": 3,
+    "province_id": 1,
+    "latitude": -8.128095,
+    "longitude": 115.0770536
+  },
+  {
+    "name": "Apotek Lampung",
+    "admin_id": 22,
+    "address": "Jalan Ryacudu Lampung",
+    "city_id": 236,
+    "province_id": 18,
+    "latitude": -5.118783,
+    "longitude": 105.3040254
+  },
+  {
+    "name": "Apotek Palembang",
+    "admin_id": 23,
+    "address": "Jalan Parasmewara Palembang",
+    "city_id": 462,
+    "province_id": 33,
+    "latitude": -2.91673,
+    "longitude": 104.7458
+  },
+  {
+    "name": "Apotek Medan",
+    "admin_id": 24,
+    "address": "Jalan Pancing Medan",
+    "city_id": 491,
+    "province_id": 34,
+    "latitude": 3.6001178,
+    "longitude": 98.7199846
+  }
+]

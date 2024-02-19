@@ -1,0 +1,116 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: alvinfebriando/everhealth:fe
+    container_name: everhealth_fe_next
+    ports:
+      - "3000:3000"
+    environment:
+      NEXT_PUBLIC_API_URL: http://rest:8080
+    network_mode: host
+    depends_on:
+      rest:
+        condition: service_started
+      nginx:
+        condition: service_started
+
+  rest:
+    image: alvinfebriando/everhealth:rest
+    container_name: everhealth_rest_golang
+    build: .
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      REST_HOST: 0.0.0.0
+      DB_HOST: 0.0.0.0
+      DB_PORT: 5432
+    network_mode: host
+    depends_on:
+      nginx:
+        condition: service_started
+
+
+  rest_dev:
+    container_name: everhealth_rest_dev_golang
+    build:
+      context: .
+      target: rest_watch
+    ports:
+      - "8080:8080"
+    env_file:
+      - .env
+    environment:
+      REST_HOST: rest_dev
+      DB_HOST: database
+      DB_PORT: 5432
+    network_mode: host
+    volumes:
+      - ./:/app
+
+
+  database:
+    image: alvinfebriando/everhealth:db
+    container_name: everhealth_db_postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASS}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_DB: ${DB_NAME}
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U user -d everhealth_db" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    volumes:
+      - everhealth_volume:/var/lib/postgresql/data
+    network_mode: host
+
+  postgis-migration:
+    build:
+      context: .
+      target: "postgis_migration"
+    environment:
+      DB_HOST: 0.0.0.0
+      DB_USER: ${DB_USER}
+      DB_PASS: ${DB_PASS}
+      DB_NAME: ${DB_NAME}
+    network_mode: host
+    depends_on:
+      database:
+        condition: service_healthy
+
+  migration:
+    container_name: everhealth_migration
+    build:
+      context: .
+      target: "migration"
+    env_file:
+      - .env
+    environment:
+      DB_HOST: 0.0.0.0
+      DB_PORT: 5432
+    depends_on:
+      database:
+        condition: service_healthy
+    network_mode: host
+    volumes:
+      - ./:/app
+
+  nginx:
+    image: nginx:latest
+    network_mode: host
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+
+volumes:
+  everhealth_volume:
+
+#networks:
+#  everhealth_network:
+#    driver: host
